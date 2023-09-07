@@ -1,4 +1,4 @@
-package com.example.differentscreens
+package com.example.differentscreens.ui.detail.view
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -27,6 +27,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.differentscreens.R
 
 class EventInfo {
 

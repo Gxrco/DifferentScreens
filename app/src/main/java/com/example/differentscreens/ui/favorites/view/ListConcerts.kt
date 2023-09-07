@@ -1,4 +1,4 @@
-package com.example.differentscreens
+package com.example.differentscreens.ui.favorites.view
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -24,6 +24,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.differentscreens.R
 
 class ListConcerts {
 
@@ -54,7 +55,8 @@ class ListConcerts {
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Icon(painter = painterResource(
-                    id = R.drawable.person),
+                    id = R.drawable.person
+                ),
                     contentDescription = "User",
                     modifier = Modifier
                         .clip(CircleShape)
