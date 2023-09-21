@@ -1,4 +1,4 @@
-package com.example.differentscreens
+package com.example.differentscreens.ui.profile.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -31,6 +31,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.differentscreens.R
 
 class ProfileScreen {
 
